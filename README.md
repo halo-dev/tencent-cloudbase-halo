@@ -20,7 +20,7 @@ _这里填写具体的使用说明_
 
 _下面的部署按钮需要替换为自己应用的部署按钮，部署按钮生成地址 <https://docs.cloudbase.net/framework/deploy-button.html>_
 
-[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&tdl_anchor=github&tdl_site=0&appUrl=https://github.com/TencentCloudBase-Marketplace/bitwarden)
+[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgithub.com%2Fruibaby%2Ftencent-cloudbase-halo&branch=master)
 
 ### 配置
 
