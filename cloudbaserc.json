@@ -7,7 +7,8 @@
       "client": {
         "use": "@cloudbase/framework-plugin-container",
         "inputs": {
-          "customLogs": "/tmp/*",
+          "cpu": 1,
+          "mem": 1,
           "serviceName": "halo",
           "servicePath": "/",
           "uploadType": "image",
