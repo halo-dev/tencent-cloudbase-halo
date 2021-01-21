@@ -1,9 +1,33 @@
 {
-  "envId": "{{env.ENV_ID}}",
   "version": "2.0",
-  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "envId": "{{env.ENV_ID}}",
   "framework": {
-    "name": "app-template",
-    "plugins": {}
+    "name": "halo",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "customLogs": "/tmp/*",
+          "serviceName": "halo",
+          "servicePath": "/",
+          "uploadType": "image",
+          "containerPort": 8090,
+          "imageInfo": {
+            "imageUrl": "ruibaby/halo"
+          },
+          "volumeMounts": {
+            "/root/.halo": "halo-cfs"
+          }
+        }
+      }
+    },
+    "requirement": {
+      "addons": [
+        {
+          "type": "CFS",
+          "name": "halo-cfs"
+        }
+      ]
+    }
   }
 }
