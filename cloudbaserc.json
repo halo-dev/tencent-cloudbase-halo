@@ -17,7 +17,7 @@
             "imageUrl": "ruibaby/halo:latest"
           },
           "volumeMounts": {
-            "~/.halo": "halo-cfs"
+            "/root/.halo": "halo-cfs"
           }
         }
       }
