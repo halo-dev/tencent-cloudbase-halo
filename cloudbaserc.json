@@ -14,7 +14,7 @@
           "uploadType": "image",
           "containerPort": 8090,
           "imageInfo": {
-            "imageUrl": "ruibaby/halo:latest"
+            "imageUrl": "halohub/halo:latest"
           },
           "volumeMounts": {
             "/root/.halo": "halo-cfs"
