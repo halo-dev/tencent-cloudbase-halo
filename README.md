@@ -2,56 +2,23 @@
   <img height="100px" src="./logo.png" center />
 </p>
 
-# [AppName](https://github.com/TencentCloudBase-Marketplace/app-template)
+# [Halo](https://github.com/halo-dev/halo)
 
-_这里填写具体的应用介绍，模板中所有斜体部分都需要替换为为真实的应用信息_
-
-## 开发者信息
-
-本应用由 _XX 开发者_ 开发提供
-
-## 使用
-
-_这里填写具体的使用说明_
+Halo 是一款现代化的个人独立博客系统，给习惯写博客的同学多一个选择。
 
 ## 部署
 
-本项目基于腾讯开源项目 [CloudBase Framework](https://github.com/Tencent/cloudbase-framework) [![star](https://img.shields.io/github/stars/Tencent/cloudbase-framework?style=social)](https://github.com/Tencent/cloudbase-framework) 开发部署，支持一键云端部署
-
-_下面的部署按钮需要替换为自己应用的部署按钮，部署按钮生成地址 <https://docs.cloudbase.net/framework/deploy-button.html>_
+本项目基于腾讯开源项目 [CloudBase Framework](https://github.com/Tencent/cloudbase-framework) 开发部署，支持一键云端部署。
 
 [![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgithub.com%2Fruibaby%2Ftencent-cloudbase-halo&branch=master)
 
-### 配置
-
-_如果应用安装时有自定义参数需要用户填写，可以声明[环境变量](https://docs.cloudbase.net/framework/config.html#requirement)，同时在下方进行参数的描述_
-
-- PARAMS_NAME 参数描述
-
-### 依赖
-
-_如果应用中有依赖[外部云上资源](https://docs.cloudbase.net/framework/config.html#requirement)，需在下方进行描述_
-
-- RESOURCE：外部资源描述
-
-## 开发
-
-你也可以下载项目后，使用 [CloudBase CLI](https://docs.cloudbase.net/cli-v1/intro.html) 在终端中一键部署。
-
-```
-npx @cloudbase/cli framework deploy -e 环境id
-```
-
 ## 注意事项
 
-1. _这里填写注意事项_
-2. _这里填写注意事项_
+1. 系统使用内置的 H2 Database，暂不支持使用 MySQL。
+2. 工作目录保存在腾讯云提供的 CFS 上，在使用此方式创建应用的时候会要求创建 CFS。
+3. 费用相关请参考 [https://cloud.tencent.com/document/product/876/18864](https://cloud.tencent.com/document/product/876/18864)
 
 ## 文档
 
-- [CloudBase Framework 文档](https://docs.cloudbase.net/framework/)
-- _其他要参考的文档_
-
-## Licence
-
-开源协议文档请参阅 [LICENSE](./LICENSE)
+- [Halo 官方文档](http://docs.halo.run)
+- [腾讯云开发文档](https://docs.cloudbase.net)
