@@ -16,7 +16,7 @@ Halo 是一款现代化的个人独立博客系统，给习惯写博客的同学
 
 1. 系统使用内置的 H2 Database，暂不支持使用 MySQL。
 2. 工作目录保存在腾讯云提供的 CFS 上，在使用此方式创建应用的时候会要求创建 CFS。
-3. 目前使用该方式部署，不支持修改[配置文件](https://docs.halo.run/zh/install/config)
+3. 目前使用该方式部署，不支持修改[配置文件](https://docs.halo.run/zh/install/config)。
 4. 费用相关请参考 [https://cloud.tencent.com/document/product/876/18864](https://cloud.tencent.com/document/product/876/18864)
 
 ## 文档
