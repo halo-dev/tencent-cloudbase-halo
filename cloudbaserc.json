@@ -11,13 +11,10 @@
           "mem": 1,
           "serviceName": "halo",
           "servicePath": "/",
-          "uploadType": "image",
+          "uploadType": "package",
           "containerPort": 8090,
-          "imageInfo": {
-            "imageUrl": "halohub/halo:latest"
-          },
           "volumeMounts": {
-            "/root/.halo": "halo-cfs"
+            "/opt/.halo": "halo-cfs"
           }
         }
       }
