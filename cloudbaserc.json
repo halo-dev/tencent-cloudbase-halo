@@ -14,7 +14,7 @@
           "uploadType": "package",
           "containerPort": 8090,
           "volumeMounts": {
-            "/opt/.halo": "halo-cfs"
+            "/opt/.halo": "xh-halo-cfs"
           }
         }
       }
@@ -23,7 +23,7 @@
       "addons": [
         {
           "type": "CFS",
-          "name": "halo-cfs"
+          "name": "xh-halo-cfs"
         }
       ]
     }
